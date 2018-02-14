@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(name='ballpark',
     description='Better human-readable numbers.',
-    long_description=open('README.rst').read(),
+    long_description=open('README.rst', encoding='utf-8').read(),
     author='Stijn Debrouwere',
     author_email='stijn@debrouwere.org',
     url='https://github.com/debrouwere/python-ballpark/',
